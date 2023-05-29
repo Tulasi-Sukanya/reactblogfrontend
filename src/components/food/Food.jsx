@@ -5,7 +5,7 @@ const Food = ({props}) => {
   const [foodTile, setFoodTile] = useState([])
 
   useEffect(() => {
-    fetch("https://backendblogdb-n3v2.onrender.com/food")
+    fetch("https://blogbackend-y4h3.onrender.com/food")
       .then(response => response.json())
       .then(data => {
         setFoodTile(data)

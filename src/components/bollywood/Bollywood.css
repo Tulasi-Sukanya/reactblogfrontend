@@ -90,8 +90,8 @@ p {
     margin: 90px auto 0 auto;
 }
 .full-view-img {
-    height: 40%;
-    width: 40%;
+    height: 25%;
+    width: 25%;
     border-radius: 15px;
 }
 @media only screen and (max-width: 1024px) and (min-width: 350px) {
@@ -119,8 +119,8 @@ p {
         width: unset;
     }
     .full-view-img {
-        height: 40%;
-        width: 40%;
+        height: 25%;
+        width: 25%;
         border-radius: 15px;
     }
     p {

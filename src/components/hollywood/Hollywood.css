@@ -15,8 +15,8 @@
     margin-bottom: 20px;
 }
 .full-view-img {
-    height: 40%;
-    width: 40%;
+    height: 30%;
+    width: 30%;
     border-radius: 15px;
 }
 
@@ -63,6 +63,7 @@
         height: 100px;
     }
     .full-view-img {
-        width: 55%;
+        height:30%;
+        width: 30%;
     }
 }
