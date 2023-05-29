@@ -10,7 +10,11 @@
     width: 100%;
     margin-bottom: 20px;
 }
-
+.food-view-img {
+    height: 40%;
+    width: 40%;
+    border-radius: 15px;
+}
 @media only screen and (max-width: 1024px) and (min-width: 350px) {
     .fitness-tile {
         width: 100%;
@@ -19,5 +23,8 @@
 
     .fitness-tile img {
         margin-bottom: 5px;
+    }
+    .food-view-img {
+        width: 40%;
     }
 }

@@ -64,7 +64,8 @@
 }
 
 .full-view-img {
-    width: 20%;
+    height: 40%;
+    width: 40%;
     border-radius: 15px;
 }
 
@@ -82,7 +83,7 @@
     }
 
     .full-view-img {
-        width: 55%;
+        width: 40%;
     }
 
     .react-code {

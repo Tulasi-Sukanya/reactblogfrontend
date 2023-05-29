@@ -6,7 +6,7 @@ const UserTile = ({props}) => {
         <>
             {props.map((data, i) =>
             <div className='user-tile'>
-                <img  className='user-image' src={data.img} alt="empty"/>
+                <img  className='user-image' src={data.image} alt="empty"/>
 
                 <div>
                     <p className='user-name'>{data.name}</p>

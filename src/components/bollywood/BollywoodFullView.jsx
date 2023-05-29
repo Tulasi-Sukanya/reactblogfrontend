@@ -7,11 +7,9 @@ const BollywoodFullView = () => {
 
     return (
         <div className='full-view'>
-            <span>{data.title}</span>
-
-            <img src={'/' + data.img} alt="empty" className='full-view-img'/>
-
-            <p>{data.description}</p>
+           <img src={`${data.image}`} alt="empty" className='full-view-img'/><br/>
+            <p>{data.title}</p><br/>
+            <p>{data.article}</p>
         </div>
     )
 }
